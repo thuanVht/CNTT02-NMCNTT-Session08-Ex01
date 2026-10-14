@@ -1,0 +1,5 @@
+Btvn 1 Lesson 9 
+
+Với Markdown (Plain Text), nếu Nam sửa dòng 10 và bạn cùng nhóm sửa dòng 50, Git tự động gộp (merge) lại hoàn hảo. Nếu cùng sửa một dòng, Git chỉ báo xung đột chính xác tại dòng đó.
+
+Với Word (.docx), Git nhìn nhận file này là một khối dữ liệu nhị phân (binary/zip). Chỉ cần Nam sửa một dấu phẩy, cấu trúc XML bên trong thay đổi cấu trúc toàn cục, khiến Git không thể đọc hiểu và báo lỗi conflict toàn bộ file, ép nhóm phải chọn thủ công bản "của Nam" hoặc "của bạn khác" và làm mất sạch công sức của người kia.
